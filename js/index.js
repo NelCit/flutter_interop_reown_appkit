@@ -7,7 +7,7 @@ import { formatUnits } from 'ethers';
 import { readContract } from '@wagmi/core'
 
 
-const projectId = 'df9750f42445f2b9853343b4fe5a824b';
+const projectId = 'your project id';
 export const networks = [polygon, polygonAmoy]
 export const config = createConfig({
   chains: networks,
